@@ -11,4 +11,5 @@ In questa repository ci sono tutti i codici creati durante le ore di laboratorio
 > - [Script-Dictionary2-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/Dictionary2.py)
 > - [Script-MyDictionary-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/MyDictionary.py)
 > - [Script-Random-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/Random.py)
+> - [Script-Function-Sum-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/Function.py)
 
