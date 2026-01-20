@@ -24,4 +24,5 @@ La repository è stata divisa in anni scolastici come riportato di seguito:
 > - [Script-Function-Sum-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/Function.py)
 > - [Script-CalculatorV2-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/CalculatorV2.py)
 > - [Script-Turtle-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/Turtle.py)
+> - [Script-Turtle_02-Python](https://github.com/Lorydima/Di_Marzo_LAB/blob/main/A.S%202025-2026/Script%20Python/Turtle_02.py)
 
