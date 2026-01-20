@@ -1,0 +1,66 @@
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Arial;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 500%;
+           }
+
+        body {
+          background-color: rgb(170, 170, 170);
+
+        }
+
+        hr {
+            height:10px;
+            background-color:rgb(255, 255, 255);
+        }
+
+        a {
+            color:rgb(113, 131, 202);
+        }
+
+         img {
+            border: 1px solid #2d2b2b;
+            border-radius: 25px;
+            padding: 5px;
+           }
+       
+        .pill-nav a {
+         font-family: arial;
+            display: inline-block;
+         color: black;
+        text-align: center;
+         padding: 14px;
+         text-decoration: none;
+         font-size: 17px;
+         border-radius: 5px;
+          }
+          
+        .pill-nav a:hover {
+         background-color: #ddd;
+         color: black;
+          }
+          
+        .pill-nav a.active {
+         background-color: grey;
+         color: white;
+          }
+
+        .footer {
+          left: 0;
+          bottom: 0;
+          width: 700 ;
+          height:700 ;
+          background-color: rgb(120, 119, 119);
+          color: white;
+          text-align: center;
+          font-family: Arial, Arial;
+         }
+
+        .button {
+          box-shadow: 0 0 30px 0 rgb(255, 255, 255);
+        }
