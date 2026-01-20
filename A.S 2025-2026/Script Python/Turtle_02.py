@@ -58,7 +58,10 @@ def main_loop():
     Main loop that draw for n times the cirlce with the isosceles triangles
     '''
     for i in range(n):
-        isoscele_triangle(r * math.cos(math.radians(180/n)) * math.cos(math.radians(i * 360/n)))
-
+        isoscele_triangle(r * math.cos(math.radians(180/n)) * math.cos(math.radians(i * 360/n))*
+                         math.cos(math.radians(i*360/n)),
+                          r*math.cos(math.radians(180/n))*
+                          math.sin(math.radians(i*360/n)),
+                          width, height, i*360/n, blue)
 
 done()
