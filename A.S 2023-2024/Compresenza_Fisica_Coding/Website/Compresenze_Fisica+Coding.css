@@ -1,0 +1,59 @@
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 50px;
+}
+
+.h1 {
+   text-align: left;
+   font-family: "Arial";
+   font-size: 100px;
+}
+
+article{
+    background-color: rgb(83, 82, 82);
+}
+
+.card {
+    border-radius: 25px;
+}
+
+.card-img-top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-body {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btn-sm {
+    background-color: rgb(132, 131, 131);
+    color: rgb(0, 0, 0);
+  }
+
+.p {
+    font-family: "Arial";
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(102, 102, 214);
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    text-align: left;
+}
+
+.footer a {
+    color: white;
+}
+

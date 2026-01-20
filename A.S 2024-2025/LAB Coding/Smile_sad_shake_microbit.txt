@@ -1,0 +1,23 @@
+def smile_actions():
+    basic.show_string("Smile face")
+    basic.show_icon(IconNames.HAPPY)
+
+def sad_actions():
+    basic.show_string("Sad Face")
+    basic.show_icon(IconNames.SAD)
+
+def on_button_pressed_a():
+    smile_actions()
+
+def on_button_pressed_b():
+    sad_actions()
+
+def shake_action():
+    basic.show_string("Shake")
+
+def on_gesture_shake():
+    shake_action()
+
+input.on_gesture(Gesture.SHAKE, on_gesture_shake)
+input.on_button_pressed(Button.A, on_button_pressed_a)
+input.on_button_pressed(Button.B, on_button_pressed_b)
