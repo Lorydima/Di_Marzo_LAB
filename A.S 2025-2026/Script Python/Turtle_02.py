@@ -49,7 +49,7 @@ def isoscele_triangle(x, y, width ,height, color, direction):
 # Parameters of circle
 n = 12
 r = 300
-width = 2 * r * math.sin(math.radiands(180/n))
+width = 2 * r * math.sin(math.radians(180/n))
 height = 200
 
 # Main Loop
@@ -62,6 +62,6 @@ def main_loop():
                          math.cos(math.radians(i*360/n)),
                           r*math.cos(math.radians(180/n))*
                           math.sin(math.radians(i*360/n)),
-                          width, height, i*360/n, blue)
+                          width, height, i*360/n, "blue")
 
 done()
