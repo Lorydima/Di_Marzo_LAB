@@ -1,4 +1,4 @@
-# Lezione 19/01/2025 "Turtle_02"
+# Lezione 19/01/2026 "Turtle_02"
 
 # Library for program Dev
 from turtle import *
