@@ -1,4 +1,4 @@
-# Lorenzo Di Marzo 3E G.B Vico Coding Repository
+# Di Marzo 3E G.B Vico Coding Repository
 
 In questa repository ci sono tutti i codici creati durante le ore di:
 
