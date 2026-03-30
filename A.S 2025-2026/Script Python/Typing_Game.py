@@ -1,5 +1,4 @@
-# Lezione 02/03/2026 "Typing Game"
-
+# Lezione 02/03/2026 and 30/03/2026 "Typing Game" 
 # Library for program Dev
 import turtle
 import random
@@ -55,4 +54,23 @@ def gameover():
     turtle.write("GAME OVER" ,align='center', font=('Courier', 50, 'normal'))
     turtle.goto(0,-150)
     turtle.color("orange")
-    turtle.write('Your Score is {score}')    
+    turtle.write('Your Score is {}', format(score), align='center', font=('courier', 40, 'normal'))
+    screen.update()
+
+# Draw Score Function
+def draw_score():
+    score_turtle.clear()
+    score_turtle.goto(420,400)
+    score_turtle.write('{}', format(score), allign='center', font=('courier', 25, 'normal'))
+    screen.update()
+
+# Draw Letters Functions
+def draw_letters():
+    global gameover
+    for i in range(len(letters)):
+        lts[i].clear
+        lts[i].goto(pos[i])
+        lts[i].write(letters[i], allign='center', font=('courier', 20, 'normal'))    
+        if pos[i][i]<500:
+            gameover = True
+            
