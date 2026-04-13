@@ -1,4 +1,5 @@
-# Lezione 02/03/2026 and 30/03/2026 "Typing Game" 
+# Lezione 02/03/2026,30/03/2026 and 13/04/2026 "Typing Game" Lorenzo Di Marzo 3E
+
 # Library for program Dev
 import turtle
 import random
@@ -70,7 +71,28 @@ def draw_letters():
     for i in range(len(letters)):
         lts[i].clear
         lts[i].goto(pos[i])
-        lts[i].write(letters[i], allign='center', font=('courier', 20, 'normal'))    
-        if pos[i][i]<500:
+        lts[i].write(letters[i], allign='center', font=('courier', 20, 'normal'))   
+        pos[i][1]-=[speed]
+        if pos[i][1]<500:
             gameover = True
-            
+            return
+    screen.update()
+    screen.ontimer(draw_letters, 50)
+
+# C Function
+def C_function(c):
+    global score
+    if c in letters:
+        score += 1
+        pressed = letters.index(c)
+        while True:
+            L = chr(ord('a') + random.randrange(26))
+            if L not in letters:
+                letters[pressed] = L
+                break
+        pos[pressed] = [random.randint(-450,450), 500]
+        speed[pressed] = random.radint(min_speed, max_speed)
+    else:
+        score -= 1
+    draw_score()
+
