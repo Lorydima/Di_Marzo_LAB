@@ -1,4 +1,4 @@
-# Lezione 02/03/2026,30/03/2026 and 13/04/2026 "Typing Game" Lorenzo Di Marzo 3E
+# Lezione 02/03/2026,30/03/2026,13/04/2026 and 04/05/2026 "Typing Game" Lorenzo Di Marzo 3E
 
 # Library for program Dev
 import turtle
@@ -25,8 +25,8 @@ turtle.goto(350,400)
 turtle.write("Score:" , align='center', font=('Courier', 25, 'normal'))
 
 # Speed Variabiles
-min_speed = 5
-max_speed = 30
+min_speed = 1
+max_speed = 10
 
 # General Array
 speed = []
@@ -96,3 +96,47 @@ def C_function(c):
         score -= 1
     draw_score()
 
+# Letters loops
+for i in range(n_letters):
+    lts.append(turtle.Turtle())
+    while True:
+        L = chr(ord('a') + random.randrange(26))
+        if L not in letters:
+            letters.append(L)
+            break
+    speed.append(random.randint(min_speed, max_speed))
+    pos.append(random.randint(-450,450),500)
+
+for i in range(n_letters):
+    lts[i].speed(0)
+    lts[i].hideturtle()
+    lts[i].color('yellow')
+
+# Recall Functions
+draw_letters()
+difficulty()
+
+# Control Keyboard
+screen.onkey(lambda: C_function('a'), 'a')
+screen.onkey(lambda: C_function('b'), 'c')
+screen.onkey(lambda: C_function('d'), 'd')
+screen.onkey(lambda: C_function('e'), 'd')
+screen.onkey(lambda: C_function('f'), 'd')
+screen.onkey(lambda: C_function('g'), 'd')
+screen.onkey(lambda: C_function('h'), 'd')
+screen.onkey(lambda: C_function('i'), 'd')
+screen.onkey(lambda: C_function('j'), 'd')
+screen.onkey(lambda: C_function('k'), 'd')
+screen.onkey(lambda: C_function('l'), 'd')
+screen.onkey(lambda: C_function('m'), 'd')
+screen.onkey(lambda: C_function('n'), 'd')
+screen.onkey(lambda: C_function('o'), 'd')
+screen.onkey(lambda: C_function('p'), 'd')
+screen.onkey(lambda: C_function('d'), 'd')
+
+# Controllare il seguente errore:     
+# pos.append(random.randint(-450,450),500)
+#    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# TypeError: list.append() takes exactly one argument (2 given)
+
+# Finire i control keyboard
