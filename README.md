@@ -1,4 +1,4 @@
-# Lorenzo Di Marzo 3E G.B Vico Coding Repository
+# Lorenzo Di Marzo 4E G.B Vico Coding Repository
 
 In questa repository ci sono tutti i codici creati durante le ore di:
 
@@ -36,3 +36,6 @@ La repository è stata divisa in anni scolastici come riportato di seguito:
 
 > **A.S** **2025/26**
 > - [Script-Python](https://github.com/Lorydima/Di_Marzo_LAB/tree/main/A.S%202025-2026/Script%20Python)
+
+> **A.S** **2026/27**
+
